@@ -3,7 +3,8 @@ import openai
 
 app = Flask(__name__)
 
-openai.api_key = "sk-tu-clave"
+# Reemplazá esta línea con tu clave real si aún no la pegaste
+openai.api_key = "sk-tu_clave_api_aquí"
 
 @app.route('/generar', methods=['POST'])
 def generar_imagen():
